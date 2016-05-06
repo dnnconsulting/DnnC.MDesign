@@ -1,0 +1,138 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="DnnC.Skins.DnnMDesign" type="Skin" version="01.00.00">
+      <friendlyName>DnnMDesign</friendlyName>
+      <description>A responsive DNN skin using Bootstrap v3.3.6 and Material Design for Bootstrap. Requires installation via the Host/Extensions page.</description>
+      <owner>
+        <name>Geoff Barlow</name>
+        <organization>DnnConsulting.nl</organization>
+        <url>http://www.DnnConsulting.nl</url>
+        <email>info@DnnConsulting.nl</email>
+      </owner>
+      <azureCompatible>true</azureCompatible>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">08.00.00</dependency>
+      </dependencies>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>portals/_default/skins/DnnMDesign</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>DnnMDesign</skinName>
+            <basePath />
+          </skinFiles>
+        </component>
+      </components>
+    </package>
+    
+    <package name="DnnC.Containers.DnnMDesign" type="Container" version="01.00.00">
+      <friendlyName>DnnMDesign</friendlyName>
+      <description>Containers for the DnnMDesign Theme package.</description>
+      <owner>
+        <name>Geoff Barlow</name>
+        <organization>DnnConsulting.nl</organization>
+        <url>http://www.DnnConsulting.nl</url>
+        <email>info@DnnConsulting.nl</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">08.00.00</dependency>
+      </dependencies>
+      <components>
+        <component type="Container">
+          <basePath>portals/_default/containers/DnnMDesign</basePath>
+          <containerFiles>
+            <containerName>DnnMDesign</containerName>
+            <containerFile>
+              <name>Footer_No-Title.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Footer_Title.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>No-Title.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-basic-depth-1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-basic-depth-2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-basic-depth-3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-basic.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-Collapse.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-footer-depth-1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-footer-depth-2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-footer-depth-3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-footer.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-header-depth-1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-header-depth-2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-header-depth-3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Panel-header.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>slider.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>slider.css</name>
+            </containerFile>
+            <containerFile>
+              <name>social.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>social.css</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h4.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h5.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Title_h6.ascx</name>
+            </containerFile>
+          </containerFiles>
+        </component>
+      </components>            
+    </package>
+  </packages>
+</dotnetnuke>

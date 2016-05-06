@@ -1,0 +1,14 @@
+﻿<h3>DnnMDesign Theme for Dnn</h3>
+	DnnConsulting.nl <br/>
+	Geoff Barlow<br />
+	<a href="mailto:info@dnnconsulting.nl">info@DnnConsulting.nl</a><br />
+	<a href=http://www.dnnconsulting.nl>http://www.dnnconsulting.nl</a><br />
+<hr/>
+	<h3>About the DnnMDesign Theme</h3>
+	<h4>Version 01.00.00</h4><br />	
+	Initial release of the skin using Bootstrap v3.3.6, Material Design for Bootstrap and DNN 8
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>None, first release</li>
+	</ul>
+</div>

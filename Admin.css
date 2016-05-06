@@ -1,0 +1,44 @@
+.Normal                 { font-size: 14px; line-height: 1.428; }
+.dnnActions             { display: inline-block; }
+.dnnActions li          { margin-right: 5px; list-style: none; float: left; }
+.dnnCheckbox .mark      { background: none;}
+.form-group .dnnLabel   { text-align: left; width: auto; }
+.dnnLabel + span        { white-space: normal; }
+
+#ControlBar, #ControlBar:before, #ControlBar:after, #ControlBar *:before, #ControlBar *:after,
+#ControlBar li, #ControlBar li:before, #ControlBar li:after,
+#ControlBar a, #ControlBar a:before, #ControlBar a:after,
+.dnn_mact, .dnn_mact:before, .dnn_mact:after, .dnn_mact *:before, .dnn_mact *:after,
+.dnn_mact li, .dnn_mact li:before, .dnn_mact li:after {
+    -webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: content-box !important; /* Firefox, other Gecko */
+    box-sizing: content-box !important; /* Opera/IE 8+ */
+}
+
+
+/* Make the Control bar more mobile friendly */
+.ControlContainer {
+    position: relative;
+    width: 727px;
+    height: 53px;
+    margin: 0px auto;
+}
+
+
+.paneOutline {
+    margin: 5px 0;
+    height: 50px;
+    line-height: 50px;
+    /*background: #eee;*/
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #666;
+}
+.paneOutline_display {
+    margin: 2px 1px;
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    border: 1px solid #ccc;
+    text-align: center;
+}

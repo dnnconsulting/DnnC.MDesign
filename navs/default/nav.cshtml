@@ -1,0 +1,54 @@
+﻿@using DotNetNuke.Web.DDRMenu;
+@using System.Dynamic; 
+@inherits DotNetNuke.Web.Razor.DotNetNukeWebPage<dynamic>
+
+@{ 
+    var root = Model.Source.root; 
+}
+
+@helper RenderNodes(IList<MenuNode> nodes) {
+	if (nodes.Count > 0) {
+		<ul class="nav navbar-nav navbar-right">
+			@foreach (var node in nodes) {        
+				if (node.HasChildren()) {	
+                   
+                    if (node.Selected) { 
+                        <li class="dropdown active"> 
+                            <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@node.Text <span class="caret"></span></a>
+                            @RenderChildNodes(node.Children)
+                        </li>
+                    } else {
+                        <li class="dropdown"> 
+                            <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@node.Text <span class="caret"></span></a>
+                            @RenderChildNodes(node.Children)
+                        </li>
+                    }
+                        
+			        
+                        
+				} else { 
+                    if (node.Selected) { 
+                        <li class="active"><a href="@node.Url" class="waves-effect waves-light">@node.Text</a></li>
+                    } else { <li><a href="@node.Url" class="waves-effect waves-light">@node.Text</a></li> } 
+                }				
+			}<!-- ./ for loop -->
+		</ul>
+	}<!-- ./ node count -->
+}<!-- ./ helper -->
+
+@helper RenderChildNodes(IList<MenuNode> nodes) {
+	if (nodes.Count > 0) {
+		<ul class="dropdown-menu">			
+			@foreach (var node in nodes) {				
+				if (node.HasChildren()) {	
+			        <li>
+                        <a href="#" class="waves-effect waves-light">@node.Text  <span class="caret"></span></a>
+                        @RenderChildNodes(node.Children)
+                    </li>
+				} else { <li><a href="@node.Url" class="waves-effect waves-light">@node.Text</a></li> }				
+			}			
+		</ul>
+	}
+}
+
+@RenderNodes(root.Children)

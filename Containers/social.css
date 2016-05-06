@@ -1,0 +1,74 @@
+.socialC {  }
+
+.socialC .contentpane .list-inline      { margin-bottom:0; }
+.socialC .contentpane .list-inline li   { padding:0; }
+.socialC .contentpane .list-inline li a { 
+    margin:0 3px;
+    display: inline-block;
+	transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.socialC .contentpane .list-inline li a.btn-xsmall i    { font-size: 1em; }
+.socialC .contentpane .list-inline li a.btn-small i     { font-size: 1.5em; }
+
+.socialC .contentpane ul.list-inline li a               { color: #fff; text-decoration:none; }
+.socialC .contentpane ul.list-inline li a.facebook      { background-color: #507CBE; }
+.socialC .contentpane ul.list-inline li a.twitter       { background-color: #63CDF1; }
+.socialC .contentpane ul.list-inline li a.google        { background-color: #F16261; }
+.socialC .contentpane ul.list-inline li a.dribbble      { background-color: #E46387; }
+.socialC .contentpane ul.list-inline li a.linkedin      { background-color: #90CADD; }
+.socialC .contentpane ul.list-inline li a.tumblr        { background-color: #4D7EA3; }
+.socialC .contentpane ul.list-inline li a.flickr        { background-color: #E474AF; }
+.socialC .contentpane ul.list-inline li a.instagram     { background-color: #4D4F54; }
+.socialC .contentpane ul.list-inline li a.vimeo         { background-color: #87D3E0; }
+.socialC .contentpane ul.list-inline li a.skype         { background-color: #36C4F3; }
+.socialC .contentpane ul.list-inline li a.pinterest     { background-color: #bd2126; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialC .contentpane .Normal, 
+.socialC .contentpane div, 
+.socialC .contentpane p, 
+.socialC .contentpane td,
+.socialC .contentpane b   { color: #666; font-size:14px; line-height: 22px; font-weight:300; }
+
+.socialC .content p strong { font-weight: 600; }
+
+/*
+.socialC .contentpane a,
+.socialC .contentpane a:active,
+.socialC .contentpane a:link,
+.socialC .contentpane a:focus,
+.socialC .contentpane a:visited {
+    text-decoration:none; 
+    font-weight:600;
+}
+.socialC .contentpane a:hover { 
+    text-decoration:none; 
+    transition: color 0.2s ease-in-out; 
+    -moz-transition: color 0.2s ease-in-out; 
+    -webkit-transition: color 0.2s ease-in-out; 
+    -o-transition: color 0.2s ease-in-out; 
+}
+*/

@@ -1,0 +1,9 @@
+﻿/* to change the background color of the theme */
+body                                                    { background:inherit; }
+
+/* to change the link & hover color */
+a, a:visited , a:link, a:focus, a:active                { color: #ff5722; }
+a:hover                                                 { color: #333333; }
+
+/* to change the dropdown link color */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a  { color: #333333; }

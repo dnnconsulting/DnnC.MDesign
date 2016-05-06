@@ -1,0 +1,24 @@
+.sliderC {  }
+/*
+.sliderC .contentpane .carousel-caption h1,
+.sliderC .contentpane .carousel-caption .h1 {
+    color:#fff !important;
+    font-size:3em !important;
+}
+.sliderC .contentpane .carousel-caption h2,
+.sliderC .contentpane .carousel-caption .h2 {
+    color:#fff !important;
+    font-size:2em !important;
+    padding-bottom:30px !important;
+}*/
+
+.sliderC .contentpane .Normal, 
+.sliderC .contentpane div, 
+.sliderC .contentpane p, 
+.sliderC .contentpane td,
+.sliderC .contentpane b   { }
+
+.sliderC .content p strong { }
+
+
+
