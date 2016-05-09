@@ -343,6 +343,10 @@ ul.searchSkinObjectPreview {
     .home-wrapper .navbar           { background-color: #424242!important; }    
 }
 
+@media (max-width: 768px) {
+    .mobile_spacer { padding-top:90px; }
+}
+
 #ControlBar input[type=text] {
     padding: 5px !important;
     height:19px;

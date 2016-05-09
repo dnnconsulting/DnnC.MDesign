@@ -50,7 +50,7 @@
 </header><!-- End : Header Section -->
 
 <!-- Start : Slider -->
-<div>
+<div class="mobile_spacer">
     <div runat="server" id="SliderPane"></div>
 </div>
 <!-- // End : Slider -->
