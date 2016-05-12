@@ -9,6 +9,8 @@
 .page-title-header  { padding-top:105px; padding-bottom:15px; }
 .page-title         { margin:0; font-size: 2.2rem; }
 
+footer.page-footer  {  margin-top: 0; }
+
 .Normal, .NormalDisabled, .NormalDeleted {
     color: inherit !important;
 }
@@ -43,11 +45,7 @@ footer .page-footer-legal a {
     margin-top: 50px;
 }
 
-/** Fix for IE11 slider, when the slider swap image the screen size is expanded to take the full height of the image then reduced */
-.carousel-inner > .item > img, 
-.carousel-inner > .item > a > img {
-    width: 100%;
-}
+
 
 /****************************************************/
 /** Register & Login ********************************/
@@ -366,3 +364,11 @@ ul.searchSkinObjectPreview {
 /**********************************************************/
 /** DNN Defaults ******************************************/
 /**********************************************************/
+
+
+/** Fix for IE11 slider, when the slider swap image the screen size is expanded to take the full height of the image then reduced */
+.carousel-inner > .item > .view > img, 
+.carousel-inner > .item > .view > a > img {
+    width: 100%;
+
+}

@@ -1,6 +1,5 @@
-﻿<div class="container-fluid">
-    <div class="row"><div class="col-md-12" runat="server" id="TopAPane"></div></div>
-</div>
+﻿<div runat="server" id="TopAPane"></div>
+
 <div class="container">
     <div class="row"><div class="col-md-12" runat="server" id="TopBPane"></div></div>
 </div>
@@ -36,9 +35,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
-    <div class="row"><div class="col-md-12" runat="server" id="Full_ScreenA_Pane"></div></div>
-</div>
+<div runat="server" id="Full_ScreenA_Pane"></div>
 
 <div class="container">
     <div class="row"><div class="col-md-12" runat="server" id="TopCPane"></div></div>
@@ -63,9 +60,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
-    <div class="row"><div class="col-md-12" runat="server" id="Full_ScreenB_Pane"></div></div>
-</div>
+<div runat="server" id="Full_ScreenB_Pane"></div>
 
 <div class="container">
     <div class="row">
@@ -102,6 +97,4 @@
     <div class="row"><div class="col-md-12" runat="server" id="Bottom_Pane"></div></div>
 </div>
 
-<div class="container-fluid">
-    <div class="row"><div class="col-md-12" runat="server" id="Full_Bottom_Pane"></div></div>
-</div>
+<div runat="server" id="Full_Bottom_Pane"></div>
