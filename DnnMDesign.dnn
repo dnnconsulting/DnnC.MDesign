@@ -1,8 +1,8 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="DnnC.Skins.DnnMDesign" type="Skin" version="01.00.01">
+    <package name="DnnC.Skins.DnnMDesign" type="Skin" version="01.00.02">
       <friendlyName>DnnMDesign</friendlyName>
-      <description>A responsive DNN skin using Bootstrap v3.3.6 and Material Design for Bootstrap. Requires installation via the Host/Extensions page.</description>
+      <description>A responsive DNN skin using Bootstrap v3.3.7 and Material Design for Bootstrap. Requires installation via the Host/Extensions page.</description>
       <owner>
         <name>Geoff Barlow</name>
         <organization>DnnConsulting.nl</organization>

@@ -15,21 +15,21 @@
     box-sizing: content-box !important; /* Opera/IE 8+ */
 }
 
+/* Addition by Peter Schotman*/
+ul.dnnAdminTabNav li a { font-size: 14px; }
 
-/* Make the Control bar more mobile friendly */
+/* Make the Control bar more mobile friendly 
 .ControlContainer {
     position: relative;
     width: 727px;
     height: 53px;
     margin: 0px auto;
-}
-
+}*/
 
 .paneOutline {
     margin: 5px 0;
     height: 50px;
     line-height: 50px;
-    /*background: #eee;*/
     border: 1px solid #ccc;
     text-align: center;
     color: #666;
