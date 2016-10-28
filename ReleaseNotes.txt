@@ -5,6 +5,12 @@
 	<a href=http://www.dnnconsulting.nl>http://www.dnnconsulting.nl</a><br />
 <hr/>
 	<h3>About the DnnMDesign Theme</h3>
+	<h4>Version 01.00.03</h4><br />	
+	<h5>Add functionality and fixes</h5>
+	<ul>
+		<li>Updated Fontawesome to version 4.7.0</li>
+	</ul>
+
 	<h4>Version 01.00.02</h4><br />	
 	<h5>Add functionality and fixes</h5>
 	<ul>
@@ -13,7 +19,7 @@
 		<li>Added minified css and amended the links in the skins</li>
 		<li>Merged optimized images (Ernst Peter Tamminga, pull request)</li>
 		<li>Removed the css that resizes the controlbar, causes problems</li>
-		<li>Variuos other small changes</li>
+		<li>Various other small changes</li>
 	</ul>
 
 	<h4>Version 01.00.01</h4><br />	
